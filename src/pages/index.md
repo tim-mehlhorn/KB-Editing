@@ -12,7 +12,7 @@ intro:
         variety of coffee beans grown with great care for the environment and
         local communities. Check our post or contact us directly for current
         availability.
-      title: Test
+      title: Test 2
       image: /img/coffee.png
     - text: >
         We offer a small, but carefully curated selection of brewing gear and
