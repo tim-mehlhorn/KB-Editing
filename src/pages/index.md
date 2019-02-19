@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: KB Editing Services
+title: KB EDITING
 image: /img/img_1317-2.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: GET YOUR STORY OUT THERE
+subheading: SUBHEAD
 mainpitch:
   title: Why Kaldi
   description: >
