@@ -3,6 +3,7 @@ templateKey: index-page
 title: KB EDITING
 image: /img/img_1317-2.jpg
 heading: GET YOUR STORY OUT THERE
+description: hghgghgh
 intro:
   blurbs:
     - text: >
@@ -37,4 +38,4 @@ intro:
       title: Test
       image: /img/meeting-space.png
 ---
-jhgjhgj
+
