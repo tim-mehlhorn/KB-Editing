@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: KB Editing Services
 image: /img/img_1317-2.jpg
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
