@@ -22,6 +22,6 @@ KB Editing strives to be a writer's partner to guide them on towards their goals
 
 ## About Kelsey Bigelow
 
-Kelsey Bigelow, founder and CEO of KB Editing,
+Kelsey Bigelow, founder and CEO of KB Editing, earned her Bachelor's of Arts in professional writing and a minor in creative writing from the University of Wisconsin-Platteville in 2017. She has served as a professional editor for about two years and has nearly five years' experience editing and discussing all types of creative writing (fiction, non-fiction, poetry). 
 
 ###
