@@ -13,7 +13,6 @@ export const ProductPageTemplate = ({
   description,
   intro,
   main,
-  testimonials,
   fullImage,
   pricing,
 }) => (
@@ -83,7 +82,6 @@ export const ProductPageTemplate = ({
                   </div>
                 </div>
               </div>
-              <Testimonials testimonials={testimonials} />
               <div
                 className="full-width-image-container"
                 style={{
@@ -222,10 +220,6 @@ export const productPageQuery = graphql`
               }
             }
           }
-        }
-        testimonials {
-          author
-          quote
         }
         full_image {
           childImageSharp {
