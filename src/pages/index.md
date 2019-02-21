@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: KB EDITING
-image: /img/webhead_1064x768.jpg
+image: /img/webhead_1064x768_crop.jpg
 heading: GET YOUR STORY OUT THERE
 description: >-
   Do you have a story you’ve been wanting to tell but not sure how to polish it
