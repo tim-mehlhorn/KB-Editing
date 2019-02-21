@@ -5,7 +5,12 @@ image: /img/webhead_1064x768_crop.jpg
 heading: GET YOUR STORY OUT THERE
 description: >-
   Do you have a story you’ve been wanting to tell but not sure how to polish it
-  up? I’m here for you. With over five years of editing experience, I’m ready to
+  up? 
+
+
+
+
+  I’m here for you. With over five years of editing experience, I’m ready to
   help you. I am passionate about getting your words out in the world, and I
   know costs can be restricting. My prices are negotiable, because I don’t want
   money to keep you from realizing a dream. Reach out to me, and we’ll work out
@@ -13,7 +18,12 @@ description: >-
 disclaimer: '(Tim: Please remove this now that you''ve been so kind to add it.)'
 intro:
   blurbs:
-    - text: "Basic: Proofreading and general\r review of readability\n\n\n\nHeavy: Proofreading and in-depth\r review of readability"
+    - text: |-
+        Basic: Proofreading and general review of readability
+
+
+
+        Heavy: Proofreading and in-depth review of readability
       title: COPY EDITING
       image: /img/coffee.png
     - text: "Review for grammar, spelling,\r and punctuation"
