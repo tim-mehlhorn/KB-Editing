@@ -33,7 +33,7 @@ intro:
       title: DEVELOPMENTAL EDITING
       image: /img/tutorials.png
     - text: "Workshop session to discuss\r perceptions from a reader in \rrelation to goal of writer,\r methods for improving\r desired moments in \rmanuscript, and more"
-      title: ONE-ON-ONE WORKSHOP
+      title: WORKSHOP
       image: /img/meeting-space.png
 ---
 
