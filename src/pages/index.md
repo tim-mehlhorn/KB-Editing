@@ -13,8 +13,7 @@ description: >-
   can be restricting. My prices are negotiable, because I don’t want money to
   keep you from realizing a dream. Reach out to me, and we’ll work out a plan.
 
-
-  <sub>_\*Prices are subject to change._</sub>
+disclaimer: "*Prices are subject to change."
 intro:
   blurbs:
     - text: "Basic: Proofreading and general\r review of readability\n\n\n\nHeavy: Proofreading and in-depth\r review of readability"

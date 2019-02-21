@@ -31,6 +31,7 @@ collections:
           - {label: Image, name: image, widget: image}
           - {label: Heading, name: heading, widget: string}
           - {label: Description, name: description, widget: "markdown"}
+          - {label: Disclaimer, name: disclaimer, widget: string}
           - {label: Intro, name: intro, widget: object, fields: [{label: Services, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image},{label: "Title", name: "title", widget: "string"}, {label: Text, name: text, widget: "markdown"}]}]}
       - file: "src/pages/about/index.md"
         label: "About"

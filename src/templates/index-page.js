@@ -10,6 +10,7 @@ export const IndexPageTemplate = ({
   title,
   heading,
   description,
+  disclaimer,
   intro,
 }) => (
     <div>
@@ -57,6 +58,7 @@ export const IndexPageTemplate = ({
                     {heading}
                   </h3>
                   <p>{description}</p>
+                  <small>{disclaimer}</small>
                 </div>
               </div>
               <Features gridItems={intro.blurbs} />
@@ -74,6 +76,7 @@ IndexPageTemplate.propTypes = {
   title: PropTypes.string,
   heading: PropTypes.string,
   description: PropTypes.string,
+  disclaimer: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
@@ -88,6 +91,7 @@ const IndexPage = ({ data }) => {
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
+        disclaimer={frontmatter.disclaimer}
         description={frontmatter.description}
         intro={frontmatter.intro}
       />
@@ -119,6 +123,7 @@ query IndexPageTemplate {
         }
         heading
         description
+        disclaimer
         intro {
           blurbs {
             image {
