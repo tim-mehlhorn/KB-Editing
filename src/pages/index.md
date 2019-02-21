@@ -9,9 +9,13 @@ description: >-
   help you. My list of services and pricing* are below.
 
 
+
+
   I am passionate about getting your words out in the world, and I know costs
   can be restricting. My prices are negotiable, because I don’t want money to
   keep you from realizing a dream. Reach out to me, and we’ll work out a plan.
+
+
 
 
   \*Prices are subject to change.
