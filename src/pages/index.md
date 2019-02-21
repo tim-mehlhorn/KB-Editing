@@ -3,39 +3,31 @@ templateKey: index-page
 title: KB EDITING
 image: /img/webhead_1064x768.jpg
 heading: GET YOUR STORY OUT THERE
-description: ddgfgdfgd
+description: >-
+  Do you have a story you’ve been wanting to tell but not sure how to polish it
+  up? I’m here for you. With over five years of editing experience, I’m ready to
+  help you. My list of services and pricing* are below.
+
+
+  I am passionate about getting your words out in the world, and I know costs
+  can be restricting. My prices are negotiable, because I don’t want money to
+  keep you from realizing a dream. Reach out to me, and we’ll work out a plan.
+
+
+  \*Prices are subject to change.
 intro:
   blurbs:
-    - text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
-      title: Copy Editing
+    - text: "Basic: Proofreading and general\r review of readability\n\nHeavy: Proofreading and in-depth\r review of readability"
+      title: COPY EDITING
       image: /img/coffee.png
-    - text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-      title: Test
+    - text: "Review for grammar, spelling,\r and punctuation"
+      title: PROOFREADING
       image: /img/coffee-gear.png
-    - text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-      title: Test
+    - text: "Review of plot, structure, \rcharacter development, voice, \rand overall craft"
+      title: DEVELOPMENTAL EDITING
       image: /img/tutorials.png
-    - text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
-      title: Test
+    - text: "Workshop session to discuss\r perceptions from a reader in \rrelation to goal of writer,\r methods for improving\r desired moments in \rmanuscript, and more"
+      title: ONE-ON-ONE WORKSHOP
       image: /img/meeting-space.png
 ---
 
