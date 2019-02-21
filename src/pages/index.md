@@ -21,7 +21,7 @@ description: >-
   \*Prices are subject to change.
 intro:
   blurbs:
-    - text: "Basic: Proofreading and general\r review of readability\n\nHeavy: Proofreading and in-depth\r review of readability"
+    - text: "Basic: Proofreading and general\r review of readability\n\n\n\nHeavy: Proofreading and in-depth\r review of readability"
       title: COPY EDITING
       image: /img/coffee.png
     - text: "Review for grammar, spelling,\r and punctuation"
