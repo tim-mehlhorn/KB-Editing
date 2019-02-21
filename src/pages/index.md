@@ -15,7 +15,7 @@ description: >-
   know costs can be restricting. My prices are negotiable, because I don’t want
   money to keep you from realizing a dream. Reach out to me, and we’ll work out
   a plan.
-disclaimer: '(Tim: Please remove this now that you''ve been so kind to add it.)'
+disclaimer: ' '
 intro:
   blurbs:
     - text: |-
