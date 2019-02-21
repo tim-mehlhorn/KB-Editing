@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: KB EDITING
-image: /img/img_1317-2.jpg
+image: /img/webhead_1064x768.jpg
 heading: GET YOUR STORY OUT THERE
 description: ddgfgdfgd
 intro:
