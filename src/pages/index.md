@@ -25,7 +25,7 @@ intro:
 
         Heavy: Proofreading and in-depth review of readability
       title: COPY EDITING
-      image: /img/coffee.png
+      image: /img/pencil.svg
     - text: "Review for grammar, spelling,\r and punctuation"
       title: PROOFREADING
       image: /img/coffee-gear.png
