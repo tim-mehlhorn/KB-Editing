@@ -28,7 +28,7 @@ intro:
       image: /img/pencil.png
     - text: "Review for grammar, spelling,\r and punctuation"
       title: PROOFREADING
-      image: /img/coffee-gear.png
+      image: /img/paper.png
     - text: "Review of plot, structure, \rcharacter development, voice, \rand overall craft"
       title: DEVELOPMENTAL EDITING
       image: /img/tutorials.png
