@@ -25,10 +25,10 @@ intro:
 
         Heavy: Proofreading and in-depth review of readability
       title: COPY EDITING
-      image: /img/pencil.png
+      image: /img/paper.png
     - text: "Review for grammar, spelling,\r and punctuation"
       title: PROOFREADING
-      image: /img/paper.png
+      image: /img/pencil.png
     - text: "Review of plot, structure, \rcharacter development, voice, \rand overall craft"
       title: DEVELOPMENTAL EDITING
       image: /img/tutorials.png
