@@ -7,7 +7,10 @@ description: >-
   Getting your words out into the world is an important step. But before you
   take that step, make sure you're communicating as effectively as possible.
   With a passion for storytelling and caring about what others have to share, KB
-  Editing is here for you.
+  Editing is here for you. 
+
+
+  Peruse any of the editing services below to see what fits your needs.
 disclaimer: ' '
 intro:
   blurbs:
