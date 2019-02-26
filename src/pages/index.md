@@ -5,12 +5,7 @@ image: /img/webhead_1064x768_crop.jpg
 heading: GET YOUR STORY OUT THERE
 description: >-
   Do you have a story you’ve been wanting to tell but not sure how to polish it
-  up? 
-
-
-
-
-  I’m here for you. With over five years of editing experience, I’m ready to
+  up? I’m here for you. With over five years of editing experience, I’m ready to
   help you. I am passionate about getting your words out in the world, and I
   know costs can be restricting. My prices are negotiable, because I don’t want
   money to keep you from realizing a dream. Reach out to me, and we’ll work out
