@@ -13,7 +13,7 @@ disclaimer: ' '
 intro:
   blurbs:
     - text: |-
-        **Basic:** Proofreading and general review of readability
+        **Basic:** Proofreading and general review of readability  
 
         **Heavy:** Proofreading and in-depth review of readability
       title: COPY EDITING
