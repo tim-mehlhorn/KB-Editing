@@ -4,16 +4,15 @@ title: GET YOUR STORY OUT THERE
 image: /img/webhead_1064x768_crop.jpg
 heading: HAVE A STORY TO TELL?
 description: >-
-  I’m here for you. With over five years of editing experience, I’m ready to
-  help you. I am passionate about getting your words out in the world, and I
-  know costs can be restricting. My prices are negotiable, because I don’t want
-  money to keep you from realizing a dream. Reach out to me, and we’ll work out
-  a plan.
+  Getting your words out into the world is an important step. But before you
+  take that step, make sure you're communicating as effectively as possible.
+  With a passion for storytelling and caring about what others have to share, KB
+  Editing is here for you.
 disclaimer: ' '
 intro:
   blurbs:
     - text: |-
-        **Basic:** Proofreading and general review of readability  
+        **Basic:** Proofreading and general review of readability
 
         **Heavy:** Proofreading and in-depth review of readability
       title: COPY EDITING
