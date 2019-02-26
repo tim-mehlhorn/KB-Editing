@@ -19,20 +19,23 @@ disclaimer: ' '
 intro:
   blurbs:
     - text: |-
-        Basic: Proofreading and general review of readability
+        **Basic:** Proofreading and general review of readability
 
-
-
-        Heavy: Proofreading and in-depth review of readability
+        **Heavy:** Proofreading and in-depth review of readability
       title: COPY EDITING
       image: /img/paper.png
-    - text: "Review for grammar, spelling,\r and punctuation"
+    - text: 'Review for grammar, spelling, and punctuation'
       title: PROOFREADING
       image: /img/pencil.png
-    - text: "Review of plot, structure, \rcharacter development, voice, \rand overall craft"
+    - text: >-
+        Review of plot, structure, character development, voice, and overall
+        craft
       title: DEVELOPMENTAL EDITING
       image: /img/tutorials.png
-    - text: "Workshop session to discuss\r perceptions from a reader in \rrelation to goal of writer,\r methods for improving\r desired moments in \rmanuscript, and more"
+    - text: >-
+        Workshop session to discuss perceptions from a reader in relation to
+        goal of writer, methods for improving desired moments in manuscript, and
+        more
       title: WORKSHOP
       image: /img/meeting-space.png
 ---
