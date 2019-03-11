@@ -3,14 +3,14 @@ import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 const FeatureGrid = ({ gridItems }) => (
-  <div className="columns is-multiline">
+  <div className="columns is-multiline service-grid">
     {gridItems.map(item => (
       <div key={item.text} className="column service">
         <section className="section">
           <div className="has-text-centered">
             <div
               style={{
-                width: '240px',
+                width: '50px',
                 display: 'inline-block',
               }}
             >
