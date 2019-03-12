@@ -19,10 +19,7 @@ intro:
         craft
       title: DEVELOPMENTAL EDITING
       image: /img/tutorials.png
-    - text: |-
-        **Basic:** Proofreading and general review of readability
-
-        **Heavy:** Proofreading and in-depth review of readability
+    - text: Review of readability and basic structure
       title: COPY EDITING
       image: /img/paper.png
     - text: 'Review for grammar, spelling, and punctuation'
