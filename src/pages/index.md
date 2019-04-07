@@ -14,20 +14,17 @@ description: >-
 disclaimer: ' '
 intro:
   blurbs:
-    - text: |-
-        **Basic:** Proofreading and general review of readability
-
-        **Heavy:** Proofreading and in-depth review of readability
-      title: COPY EDITING
-      image: /img/paper.png
-    - text: 'Review for grammar, spelling, and punctuation'
-      title: PROOFREADING
-      image: /img/pencil.png
     - text: >-
         Review of plot, structure, character development, voice, and overall
         craft
       title: DEVELOPMENTAL EDITING
       image: /img/tutorials.png
+    - text: Review of readability and basic structure
+      title: COPY EDITING
+      image: /img/paper.png
+    - text: 'Review for grammar, spelling, and punctuation'
+      title: PROOFREADING
+      image: /img/pencil.png
     - text: >-
         Workshop session to discuss perceptions from a reader in relation to
         goal of writer, methods for improving desired moments in manuscript, and
