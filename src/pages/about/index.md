@@ -8,7 +8,7 @@ KB Editing exists to help writers tell their stories effectively and realistical
 
 ## Where do we want to go?
 
-KB Editing strives to be a writer's partner to guide them on towards their goals.
+KB Editing strives to be a writer's partner to guide them towards their goals.
 
 ## How did we get here?
 
