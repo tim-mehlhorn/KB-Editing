@@ -12,7 +12,7 @@ Developmental editing takes an objective view of your entire project to see what
 
 **Please note, developmental editing does not include proofreading. For more details on that service offering, please click here.**
 
-****
+- - -
 
 ## **Pricing***
 
@@ -22,12 +22,12 @@ When it comes to refining your work, it can be frustrating to find help without 
 
 **Poetry: $10 per page***
 
-****
+- - -
 
-_\*Prices are subject to change. Pages are based on 12 point font, Times New Roman, single spaced._
+_\*Prices are subject to change. Page count is based on 12 point font, Times New Roman, single spaced._
 
 __
 
 \[SUBMISSION FORM]
 
-****
+- - -
