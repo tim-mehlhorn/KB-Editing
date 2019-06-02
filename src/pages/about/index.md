@@ -8,7 +8,7 @@ KB Editing exists to help writers tell their stories effectively and realistical
 
 ## Where do we want to go?
 
-KB Editing strives to be a writer's partner to guide them on towards their goals.
+KB Editing strives to be a writer's partner to guide them towards their goals.
 
 ## How did we get here?
 
@@ -17,7 +17,5 @@ KB Editing spawned from an emerging writer wishing for the services she needed t
 ## Who is Kelsey Bigelow?
 
 Kelsey Bigelow, founder and CEO of KB Editing, earned her Bachelor's of Arts in professional writing and a minor in creative writing from the University of Wisconsin-Platteville in 2017. She has served as a full-time editor for about two years and has nearly five years' experience editing and discussing all types of creative writing (fiction, non-fiction, poetry). 
-
-![Kelsey Bigelow](/img/headshot_circular.jpg)
 
 ###
