@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: GET YOUR STORY OUT THERE
-image: /img/webhead_1064x768_crop.jpg
+image: /img/img_1317-2.jpg
 heading: HAVE A STORY TO TELL?
 description: >-
   Getting your words out into the world is an important step. But before you
