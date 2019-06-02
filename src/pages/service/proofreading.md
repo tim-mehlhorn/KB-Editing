@@ -10,9 +10,9 @@ Cleaning up your project is what proofreading was made for. Let us help you with
 
 When it comes to refining your work, it can be frustrating to find help without a restricting cost. Because of this, my prices are negotiable. I don’t want money to keep you from sharing your story. Reach out to me, and we’ll work out a plan.
 
-**Fiction and Non-Fiction: $4 per page**  
+**Fiction and Non-Fiction: $4 per page***  
 
-**Poetry: $3 per page**
+**Poetry: $3 per page***
 
 - - -
 
