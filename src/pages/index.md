@@ -14,18 +14,22 @@ description: >-
 disclaimer: ' '
 intro:
   blurbs:
-    - text: >-
+    - link: /service/developmental-editing
+      text: >-
         Review of plot, structure, character development, voice, and overall
         craft
       title: DEVELOPMENTAL EDITING
       image: /img/tutorials.png
-    - text: Review of readability and basic structure
+    - link: /service/copy-editing
+      text: Review of readability and basic structure
       title: COPY EDITING
       image: /img/paper.png
-    - text: 'Review for grammar, spelling, and punctuation'
+    - link: /service/proofreading
+      text: 'Review for grammar, spelling, and punctuation'
       title: PROOFREADING
       image: /img/pencil.png
-    - text: >-
+    - link: /service/workshop
+      text: >-
         Workshop session to discuss perceptions from a reader in relation to
         goal of writer, methods for improving desired moments in manuscript, and
         more
