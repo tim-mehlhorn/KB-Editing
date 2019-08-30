@@ -14,19 +14,66 @@ export const ServiceTemplate = ({
   const PostContent = contentComponent || Content
 
   return (
-    <section className="section">
-      {helmet || ''}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            <PostContent content={content} />
+    <div>
+      <section className="section">
+        {helmet || ''}
+        <div className="container content">
+          <div className="columns">
+            <div className="column is-10 is-offset-1">
+              <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+                {title}
+              </h1>
+              <PostContent content={content} />
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <section className="section">
+        <div className="container content">
+          <div className="columns">
+            <div className="column is-10 is-offset-1">
+              
+              <form name="{title}" netlify>
+              <h2>Have an project that needs help?</h2>
+              <div className="columns">
+            <div className="column is-4">
+                <label>First Name<br /><input name="first-name" type="text"></input></label>
+                </div>
+                <div className="column is-4">
+                <label>Last Name<br /><input name="last-name" type="text"></input></label>
+                </div>
+                <div className="column is-4">
+                <label>Email<br /><input name="email" type="email" ></input></label>
+                </div>
+                </div>
+                <div className="columns">
+                <div className="column is-12">
+                <label>Genre of your project<br/>
+                <select name="genre">
+                    <option>Fiction</option>
+                    <option>Non-fiction</option>
+                    <option>Poetry</option>
+                  </select>
+                </label>
+                </div>
+                </div>
+                <div className="columns">
+                <div className="column is-12">
+                <label>Details on your project and any questions you have<br/>
+          <textarea name="details" rows="4"></textarea>
+                </label>
+                </div>
+                </div>
+                <div className="columns">
+                <div className="column is-8">
+                <label><input type="checkbox" name="GDPR"></input>By checking this box, I agree to release the information provided above to Kelsey Bigelow for the purpose of contacting me for more information on her editing services.</label></div></div>
+                <input type="submit" className="btn" value="Submit"></input>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
   )
 }
 

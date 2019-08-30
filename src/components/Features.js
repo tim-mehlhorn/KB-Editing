@@ -19,6 +19,7 @@ const FeatureGrid = ({ gridItems }) => (
           </div>
           <h3>{item.title}</h3>
           <p>{item.text}</p>
+          <a href={item.link}>Read More</a>
         </section>
       </div>
     ))}
@@ -31,6 +32,7 @@ FeatureGrid.propTypes = {
       image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
       title: PropTypes.string,
       text: PropTypes.string,
+      link: PropTypes.string,
     })
   ),
 }
