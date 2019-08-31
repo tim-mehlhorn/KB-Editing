@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { Link } from 'gatsby'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 const FeatureGrid = ({ gridItems }) => (
@@ -19,7 +20,7 @@ const FeatureGrid = ({ gridItems }) => (
           </div>
           <h3>{item.title}</h3>
           <p>{item.text}</p>
-          <a href={item.link}>Read More</a>
+          <Link to="{item.link}">Read More {item.link}</Link>
         </section>
       </div>
     ))}
