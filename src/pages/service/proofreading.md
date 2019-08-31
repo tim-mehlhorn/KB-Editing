@@ -17,7 +17,3 @@ When it comes to refining your work, it can be frustrating to find help without 
 - - -
 
 _\*Prices are subject to change. Page count is based on 12 point font, Times New Roman, single spaced._
-
-__
-
-_\[SUBMISSION FORM]_
