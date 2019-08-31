@@ -27,7 +27,3 @@ Fiction and Non-Fiction: $7 per page*
 Poetry: $6 per page*
 
 _\*Prices are subject to change. Page count is based on 12 point font, Times New Roman, single spaced._
-
-__
-
-_\[SUBMISSION FORM]_
