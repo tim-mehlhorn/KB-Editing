@@ -19,7 +19,7 @@ intro:
         Review of plot, structure, character development, voice, and overall
         craft
       title: DEVELOPMENTAL EDITING
-      image: /img/tutorials.png
+      image: /img/development.png
     - link: /service/copy-editing
       text: Review of readability and basic structure
       title: COPY EDITING
@@ -34,6 +34,6 @@ intro:
         goal of writer, methods for improving desired moments in manuscript, and
         more
       title: WORKSHOP
-      image: /img/meeting-space.png
+      image: /img/workshop.png
 ---
 
