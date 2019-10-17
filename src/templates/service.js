@@ -37,13 +37,13 @@ export const ServiceTemplate = ({
               <h2>Have an project that needs help?</h2>
               <div className="columns">
             <div className="column is-4">
-                <label>First Name<br /><input name="first-name" type="text"></input></label>
+                <label>First Name<br /><input name="first-name" type="text" placeholder="Leia"></input></label>
                 </div>
                 <div className="column is-4">
-                <label>Last Name<br /><input name="last-name" type="text"></input></label>
+                <label>Last Name<br /><input name="last-name" type="text" placeholder="Organa"></input></label>
                 </div>
                 <div className="column is-4">
-                <label>Email<br /><input name="email" type="email" ></input></label>
+                <label>Email<br /><input name="email" type="email" placeholder="AlderaanForever@galaxy.net"></input></label>
                 </div>
                 </div>
                 <div className="columns">
@@ -60,7 +60,7 @@ export const ServiceTemplate = ({
                 <div className="columns">
                 <div className="column is-12">
                 <label>Details on your project and any questions you have<br/>
-          <textarea name="details" rows="4"></textarea>
+          <textarea name="details" rows="4" placeholder="Help me Obi Wan Kenobi. You're my only hope."></textarea>
                 </label>
                 </div>
                 </div>

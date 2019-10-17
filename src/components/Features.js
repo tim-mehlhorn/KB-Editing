@@ -20,7 +20,7 @@ const FeatureGrid = ({ gridItems }) => (
           </div>
           <h3>{item.title}</h3>
           <p>{item.text}</p>
-          <Link to="{item.link}">Read More {item.link}</Link>
+          <Link to={item.link}>Read More</Link>
         </section>
       </div>
     ))}

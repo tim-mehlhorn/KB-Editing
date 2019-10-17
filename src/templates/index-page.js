@@ -135,7 +135,8 @@ query IndexPageTemplate {
               }
             }
             title
-            text 
+            text
+            link
           }
         }
       }

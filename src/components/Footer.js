@@ -29,7 +29,7 @@ const Footer = class extends React.Component {
                   <li><Link to="/" className="navbar-item">Home</Link></li>
                   <li><Link className="navbar-item" to="/about">About</Link></li>
                   <li><Link className="navbar-item" to="/contact">Contact</Link></li>
-                  <li><a className="navbar-item" href="https://www.google.com" target="_blank">Author Site</a></li>
+                  <li><a className="navbar-item" href="https://kelkaybpoetry.com/" target="_blank" rel="noopener noreferrer">Author Site</a></li>
                   <li><a
                     className="navbar-item"
                     href="/admin/"
@@ -41,14 +41,14 @@ const Footer = class extends React.Component {
             </div>
             <div className="column is-3 social">
               <h4>Connect with KB Editing</h4>
-              <a title="facebook" href="https://facebook.com">
+              <a title="facebook" rel="noopener noreferrer" href="https://facebook.com">
                 <img
                   src={facebook}
                   alt="Facebook"
                   style={{ width: '1em', height: '1em' }}
                 />
               </a>
-              <a title="instagram" href="https://instagram.com">
+              <a title="instagram" rel="noopener noreferrer" href="https://instagram.com">
                 <img
                   src={instagram}
                   alt="Instagram"
