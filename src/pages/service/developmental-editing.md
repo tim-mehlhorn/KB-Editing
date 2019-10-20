@@ -1,6 +1,10 @@
 ---
 templateKey: service
 title: DEVELOPMENTAL EDITING
+prices:
+  - text: test
+    title: test
+disclaimer: Test
 ---
 ## Need some un-biased guidance?**
 
