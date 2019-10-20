@@ -1,6 +1,10 @@
 ---
 templateKey: service
 title: WORKSHOP
+prices:
+  - text: sst
+    title: stst
+disclaimer: test
 ---
 ## Want a personal or group discussion?
 
