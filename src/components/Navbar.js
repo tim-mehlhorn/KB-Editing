@@ -1,28 +1,28 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import logo from '../img/logo.svg'
+import React from "react";
+import { Link } from "gatsby";
+import logo from "../img/logo.svg";
 
 const Navbar = class extends React.Component {
   componentDidMount() {
     // Get all "navbar-burger" elements
     const $navbarBurgers = Array.prototype.slice.call(
-      document.querySelectorAll('.navbar-burger'),
+      document.querySelectorAll(".navbar-burger"),
       0
-    )
+    );
     // Check if there are any navbar burgers
     if ($navbarBurgers.length > 0) {
       // Add a click event on each of them
       $navbarBurgers.forEach(el => {
-        el.addEventListener('click', () => {
+        el.addEventListener("click", () => {
           // Get the target from the "data-target" attribute
-          const target = el.dataset.target
-          const $target = document.getElementById(target)
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
 
           // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-          el.classList.toggle('is-active')
-          $target.classList.toggle('is-active')
-        })
-      })
+          el.classList.toggle("is-active");
+          $target.classList.toggle("is-active");
+        });
+      });
     }
   }
 
@@ -36,7 +36,7 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="KB Editing" style={{maxHeight: '3rem' }} />
+              <img src={logo} alt="KB Editing" style={{ maxHeight: "3rem" }} />
             </Link>
             {/* Hamburger menu */}
             <div className="navbar-burger burger" data-target="navMenu">
@@ -46,13 +46,31 @@ const Navbar = class extends React.Component {
             </div>
           </div>
           <div id="navMenu" className="navbar-menu">
-            <div className="navbar-start has-text-centered">
+            <div className="navbar-start has-text-centered ">
               <Link className="navbar-item" to="/about">
                 About
               </Link>
-              <Link className="navbar-item" to="/service">
-                Services
-              </Link>
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">Services</a>
+
+                <div class="navbar-dropdown">
+                  <Link
+                    className="navbar-item"
+                    to="/service/developmental-editing"
+                  >
+                    Developmental Editing
+                  </Link>
+                  <Link className="navbar-item" to="/service/copy-editing">
+                    Copy Editing
+                  </Link>
+                  <Link className="navbar-item" to="/service/proofreading">
+                    Proofreading
+                  </Link>
+                  <Link className="navbar-item" to="/service/workshop">
+                    Workshop
+                  </Link>
+                </div>
+              </div>
               <Link className="navbar-item" to="/contact">
                 Contact
               </Link>
@@ -60,8 +78,8 @@ const Navbar = class extends React.Component {
           </div>
         </div>
       </nav>
-    )
+    );
   }
-}
+};
 
-export default Navbar
+export default Navbar;
