@@ -28,6 +28,8 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "service"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Prices", name: prices, widget: list, fields: [{label: "Title", name: "title", widget: "string"}, {label: Text, name: text, widget: "markdown"}]}
+      - {label: Disclaimer, name: disclaimer, widget: string}
 
   - name: "pages"
     label: "Pages"
