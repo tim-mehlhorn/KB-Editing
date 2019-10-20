@@ -1,6 +1,10 @@
 ---
 templateKey: service
 title: PROOFREADING
+prices:
+  - text: sets
+    title: test
+disclaimer: test
 ---
 ## Want a good polish?
 
