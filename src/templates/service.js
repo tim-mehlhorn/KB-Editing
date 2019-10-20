@@ -1,22 +1,24 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
-import { graphql} from 'gatsby'
-import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
+import React from "react";
+import PropTypes from "prop-types";
+import Helmet from "react-helmet";
+import { graphql } from "gatsby";
+import Layout from "../components/Layout";
+import Content, { HTMLContent } from "../components/Content";
 
 export const ServiceTemplate = ({
   content,
   contentComponent,
   title,
-  helmet,
+  prices,
+  disclaimer,
+  helmet
 }) => {
-  const PostContent = contentComponent || Content
+  const PostContent = contentComponent || Content;
 
   return (
     <div>
       <section className="section">
-        {helmet || ''}
+        {helmet || ""}
         <div className="container content">
           <div className="columns">
             <div className="column is-10 is-offset-1">
@@ -24,6 +26,17 @@ export const ServiceTemplate = ({
                 {title}
               </h1>
               <PostContent content={content} />
+              <div className="prices">
+                {prices.map(item => (
+                  <div key={item.text} className="column price">
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
+                  </div>
+                ))}
+              </div>
+              <div className="disclaimer-container">
+                  <em>*{disclaimer}</em>
+              </div>
             </div>
           </div>
         </div>
@@ -32,41 +45,79 @@ export const ServiceTemplate = ({
         <div className="container content">
           <div className="columns">
             <div className="column is-10 is-offset-1">
-              
               <form name="{title}" netlify>
-              <h2>Have an project that needs help?</h2>
-              <div className="columns">
-            <div className="column is-4">
-                <label>First Name<br /><input name="first-name" type="text" placeholder="Leia"></input></label>
-                </div>
-                <div className="column is-4">
-                <label>Last Name<br /><input name="last-name" type="text" placeholder="Organa"></input></label>
-                </div>
-                <div className="column is-4">
-                <label>Email<br /><input name="email" type="email" placeholder="AlderaanForever@galaxy.net"></input></label>
-                </div>
+                <h2>Have an project that needs help?</h2>
+                <div className="columns">
+                  <div className="column is-4">
+                    <label>
+                      First Name
+                      <br />
+                      <input
+                        name="first-name"
+                        type="text"
+                        placeholder="Leia"
+                      ></input>
+                    </label>
+                  </div>
+                  <div className="column is-4">
+                    <label>
+                      Last Name
+                      <br />
+                      <input
+                        name="last-name"
+                        type="text"
+                        placeholder="Organa"
+                      ></input>
+                    </label>
+                  </div>
+                  <div className="column is-4">
+                    <label>
+                      Email
+                      <br />
+                      <input
+                        name="email"
+                        type="email"
+                        placeholder="AlderaanForever@galaxy.net"
+                      ></input>
+                    </label>
+                  </div>
                 </div>
                 <div className="columns">
-                <div className="column is-12">
-                <label>Genre of your project<br/>
-                <select name="genre">
-                    <option>Fiction</option>
-                    <option>Non-fiction</option>
-                    <option>Poetry</option>
-                  </select>
-                </label>
-                </div>
-                </div>
-                <div className="columns">
-                <div className="column is-12">
-                <label>Details on your project and any questions you have<br/>
-          <textarea name="details" rows="4" placeholder="Help me Obi Wan Kenobi. You're my only hope."></textarea>
-                </label>
-                </div>
+                  <div className="column is-12">
+                    <label>
+                      Genre of your project
+                      <br />
+                      <select name="genre">
+                        <option>Fiction</option>
+                        <option>Non-fiction</option>
+                        <option>Poetry</option>
+                      </select>
+                    </label>
+                  </div>
                 </div>
                 <div className="columns">
-                <div className="column is-8">
-                <label><input type="checkbox" name="GDPR"></input>By checking this box, I agree to release the information provided above to Kelsey Bigelow for the purpose of contacting me for more information on her editing services.</label></div></div>
+                  <div className="column is-12">
+                    <label>
+                      Details on your project and any questions you have
+                      <br />
+                      <textarea
+                        name="details"
+                        rows="4"
+                        placeholder="Help me Obi Wan Kenobi. You're my only hope."
+                      ></textarea>
+                    </label>
+                  </div>
+                </div>
+                <div className="columns">
+                  <div className="column is-8">
+                    <label>
+                      <input type="checkbox" name="GDPR"></input>By checking
+                      this box, I agree to release the information provided
+                      above to Kelsey Bigelow for the purpose of contacting me
+                      for more information on her editing services.
+                    </label>
+                  </div>
+                </div>
                 <input type="submit" className="btn" value="Submit"></input>
               </form>
             </div>
@@ -74,18 +125,19 @@ export const ServiceTemplate = ({
         </div>
       </section>
     </div>
-  )
-}
+  );
+};
 
 ServiceTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   title: PropTypes.string,
-  helmet: PropTypes.object,
-}
+  prices: PropTypes.object,
+  helmet: PropTypes.object
+};
 
 const Service = ({ data }) => {
-  const { markdownRemark: post } = data
+  const { markdownRemark: post } = data;
 
   return (
     <Layout>
@@ -102,18 +154,20 @@ const Service = ({ data }) => {
           </Helmet>
         }
         title={post.frontmatter.title}
+        prices={post.frontmatter.prices}
+        disclaimer={post.frontmatter.disclaimer}
       />
     </Layout>
-  )
-}
+  );
+};
 
 Service.propTypes = {
   data: PropTypes.shape({
-    markdownRemark: PropTypes.object,
-  }),
-}
+    markdownRemark: PropTypes.object
+  })
+};
 
-export default Service
+export default Service;
 
 export const pageQuery = graphql`
   query ServiceByID($id: String!) {
@@ -123,7 +177,12 @@ export const pageQuery = graphql`
       frontmatter {
         title
         description
+        prices {
+          title
+          text
+        }
+        disclaimer
       }
     }
   }
-`
+`;

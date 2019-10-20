@@ -129,7 +129,12 @@ $menu-label-color: $white-ter
     vertical-align: middle;
     display: inline;
 
-.service
+.prices
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    grid-gap: 1em;
+
+.service , .price
   padding: .25em;
   border-radius: 5px;
   margin: 1em;
@@ -141,7 +146,10 @@ $menu-label-color: $white-ter
     border-color: #8bcbc8;
     box-shadow: 0 0 20px 15px rgba(0,0,0,.05);
 
-
+.price 
+  padding: 1em;
+  box-shadow: 0 0 10px 5px rgba(0,0,0,.1);
+  border-left: 0.5em solid #Dae9e4;
 
 h1
   background-color: #Dae9e4;
@@ -158,6 +166,10 @@ h1
   grid-template-columns: 1fr 1fr 1fr;
   *:nth-child(1),*:nth-child(4)
     grid-column: span 2;
+
+.disclaimer-container
+  font-size: .9em;
+
 
 form
   padding: 2em;
