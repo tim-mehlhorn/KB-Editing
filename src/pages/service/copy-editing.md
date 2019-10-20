@@ -1,6 +1,10 @@
 ---
 templateKey: service
 title: COPY EDITING
+prices:
+  - text: sdfdf
+    title: Test
+disclaimer: Test
 ---
 ## Basic or heavy copy editing? Which is best for you?
 
